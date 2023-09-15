@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Contacto - Seguro No Pagamos Cooperativa</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seguro No Pagamos Cooperativa</h1>
+
+    <h2>Solicitud de Contacto</h2>
+
+    <form name="form_contacto" onsubmit="contacto(); return false;">
+        <div>
+            <label>Nombre</label>
+            <input type="text" name="nombre" id="nombre_id">
+
+        </div>
+        <div>
+            <label>Apellido</label>
+            <input type="text" name="apellido" id="apellido_id">
+
+        </div>
+        <div>
+            <label>DNI</label>
+            <input type="text" name="dni" id="dni_id">
+
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email_id">
+
+        </div>
+        <div>
+            <label>Telefono</label>
+            <input type="number" name="telefono" id="telefono_id">
+
+        </div>
+        <div>
+            <label>Tipo Seguro</label>
+            <select name="seguro" id="tipo_seguro_id" onchange="tipoSeguro();">
+                <option value="1">Basico</option>
+                <option value="2">Intermedio</option>
+                <option value="3">Premuim</option>
+            </select>
+            <div id="precioSeguro"></div>
+        </div>
+        <button type="submit">Solicitar Contacto</button> <span id="error"></span> <span id="respuesta"></span>
+    </form>
+</body>
+<script src="./scripts/script.js"></script>
+</html>
