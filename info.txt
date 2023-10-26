@@ -3,3 +3,4 @@ prueba con path UNC
 sale pull de public
 
 sale pull en ffrana55 otro salida comando
+otra salida pull
