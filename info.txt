@@ -10,3 +10,4 @@ otro mas
 6
 7 ejecucion
 8 pull en prod
+9 pull en dtc036
